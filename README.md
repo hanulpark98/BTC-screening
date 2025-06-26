@@ -31,5 +31,34 @@ The following variables are presented in order, each with its required unit for 
     25. ALP (U/L)
     26. CEA (ng/mL)
 
+For any missing or unavailable input, the variable is imputed with the median value from our training cohort (n = 891 benign biliary tract patients and n = 548 malignant biliary tract patients).
+
+    1. Regular_daily_activity: 
+    2. Fatty_Liver: 
+    3. Vitamin: 
+    4. Uric_Acid: 
+    5. HBsAb_negative
+    6. Hematocrit
+    7. HBsAb_positive
+    8. HBsAg_negative
+    9. Weight
+    10. HCVAb_negative
+    11. Albumin
+    12. AST
+    13. Height
+    14. Platelets
+    15. ALT 
+    16. APTT
+    17. Alcohol_status
+    18. GGT
+    19. ESR 
+    20. C Reactive Protein 
+    21. Total Bilirubin
+    22. Hemoglobin
+    23. Age
+    24. Direct Bilirubin
+    25. ALP
+    26. CEA 
+
 ## Required input clinical variables of the BTC-screening model
 The following variables are presented in order, each with its required unit for valid input:

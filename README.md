@@ -1,7 +1,7 @@
 # BTC-screening
 An interpretable biliary tract cancer risk prediction machine learning model for patients with benign biliary tract disease conditions or suspected conditions
 
-## Input clinical variables of the BTC-screening model
+## Required input clinical variables of the BTC-screening model
 The following variables are presented in order, each with its required unit for valid input:
 
     1. Regular_daily_activity (hr/day)
@@ -30,3 +30,6 @@ The following variables are presented in order, each with its required unit for 
     24. Direct Bilirubin (mg/dL)
     25. ALP (U/L)
     26. CEA (ng/mL)
+
+## Required input clinical variables of the BTC-screening model
+The following variables are presented in order, each with its required unit for valid input:

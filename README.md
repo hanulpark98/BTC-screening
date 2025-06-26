@@ -31,7 +31,7 @@ The following variables are presented in order, each with its required unit for 
     25. ALP (U/L)
     26. CEA (ng/mL)
 
-For any missing or unavailable input, the variable is imputed with the median value from our training cohort (n = 891 benign biliary tract patients and n = 548 malignant biliary tract patients).
+For any missing or unavailable input, the variable could be imputed with the median value from our training cohort (n = 891 benign biliary tract patients and n = 548 malignant biliary tract patients).
 
     1. Regular_daily_activity: 
     2. Fatty_Liver: 

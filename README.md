@@ -1,7 +1,7 @@
 # BTC-screening
 An interpretable biliary tract cancer risk prediction machine learning model for patients with benign biliary tract disease conditions or suspected conditions
 
-## Required input clinical variables of the BTC-screening model
+## 1. Required input clinical variables of the BTC-screening model
 The following variables are presented in order, each with its required unit for valid input:
 
     1. Regular_daily_activity (hr/day)
@@ -60,5 +60,16 @@ For any missing or unavailable input, the variable could be imputed with the med
     25. ALP
     26. CEA 
 
-## Required input clinical variables of the BTC-screening model
-The following variables are presented in order, each with its required unit for valid input:
+## 2. Prepraring the model environment before running
+2.1 Set up a Python development environment such as VS Code, PyCharm, or Jupyter Notebook
+
+2.2 Inside the Python development environment, install all required dependencies by running:
+
+    pip install -r requirements.txt
+
+or manually installing all libraries
+
+2.3 Download tabpfn_model.pkl to your workspace inside your Python development environment
+
+## 3. Model usage
+

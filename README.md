@@ -1,4 +1,4 @@
-# BTC-screening
+# BTC-screening model
 An interpretable biliary tract cancer risk prediction machine learning model for patients with benign biliary tract disease conditions or suspected conditions
 
 ## 1. Required input clinical variables of the BTC-screening model
@@ -69,7 +69,11 @@ For any missing or unavailable input, the variable could be imputed with the med
 
 or manually installing all libraries
 
-2.3 Download tabpfn_model.pkl to your workspace inside your Python development environment
+2.3 Download the file: 
+
+    tabpfn_model.pkl 
+    
+to your workspace inside your Python development environment
 
 ## 3. Model usage
 

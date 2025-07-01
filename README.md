@@ -76,4 +76,7 @@ or manually installing all libraries
 to your workspace inside your Python development environment
 
 ## 3. Model usage 🙍👧
-With the clini
+With the clinical variables prepared for a sample patient of suspection, run the file
+
+    model_initiator.py 
+

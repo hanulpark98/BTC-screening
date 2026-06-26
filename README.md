@@ -1,4 +1,4 @@
-# Machine-learning decision support for differentiating biliary tract cancer from benign biliary tract disease at initial evaluation 🏥
+# ML-Based Risk assessment of Biliary Tract Cancer 🏥
 
 This repository contains code and documentation for reproducing the machine-learning pipeline described in:
 

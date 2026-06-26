@@ -6,6 +6,7 @@ This repository contains code and documentation for reproducing the machine-lear
 
 The model is intended for research use and retrospective validation only. It is not a standalone diagnostic device and should not be used to make clinical decisions without prospective validation and appropriate regulatory review.
 
+
 ## What this repository provides
 
 - Definitions of the compact 20-feature and extended 40-feature predictor sets
@@ -15,9 +16,11 @@ The model is intended for research use and retrospective validation only. It is 
 - Synthetic/example input files for demonstrating the pipeline
 - Documentation of the intended use, limitations, and data-access restrictions
 
+
 ## What this repository does not provide
 
 The original patient-level clinical dataset is not publicly released because it contains restricted clinical data from participating hospitals. Access may be considered upon reasonable request and institutional permission.
+
 
 ## 1. Required input clinical variables of the BTC-screening model ☑
 The following variables are presented in order, each with its required unit value:

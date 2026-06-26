@@ -1,4 +1,4 @@
-# Machine-learning decision support for differentiating biliary tract cancer from benign biliary tract disease
+# BTC-vs-BTD Machine Learning Decision Support 🏥
 
 This repository provides code and documentation for the study:
 

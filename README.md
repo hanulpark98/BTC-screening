@@ -1,25 +1,34 @@
-# ML-Based Risk assessment of Biliary Tract Cancer 🏥
+# BTC-vs-BTD Machine Learning Decision Support 🏥
 
-This repository contains code and documentation for reproducing the machine-learning pipeline described in:
+This repository provides code and documentation for the study:
 
-"A machine-learning decision-support model for differentiating biliary tract cancer from benign biliary tract disease at initial evaluation"
+**A machine-learning decision-support model for differentiating biliary tract cancer from benign biliary tract disease at initial evaluation**
 
-The model is intended for research use and retrospective validation only. It is not a standalone diagnostic device and should not be used to make clinical decisions without prospective validation and appropriate regulatory review.
+We developed and externally validated machine-learning models to support differentiation of biliary tract cancer (BTC) from benign biliary tract disease (BTD) using routinely available structured clinical and laboratory data collected at initial evaluation.
 
-
-## What this repository provides
-
-- Definitions of the compact 20-feature and extended 40-feature predictor sets
-- Model-development and validation code
-- Metric computation scripts for AUROC, AUPRC, Brier score, sensitivity, specificity, PPV, and NPV
-- SHAP-based model interpretation code
-- Synthetic/example input files for demonstrating the pipeline
-- Documentation of the intended use, limitations, and data-access restrictions
+The model is intended to support BTC risk stratification and prioritization of further diagnostic evaluation in patients with suspected biliary tract disease. It is not intended to replace clinician judgment, imaging, endoscopy, pathology, or standard diagnostic workup.
 
 
-## What this repository does not provide
+## Overview ☑
 
-The original patient-level clinical dataset is not publicly released because it contains restricted clinical data from participating hospitals. Access may be considered upon reasonable request and institutional permission.
+BTC and BTD can be difficult to distinguish during initial clinical evaluation because they may present with overlapping symptoms and laboratory abnormalities. This project evaluates whether structured clinical data available before downstream diagnostic confirmation can provide useful decision support.
+
+The final models use TabPFN with two predictor sets:
+
+Compact 20-feature model: designed for portability across institutions
+Extended 40-feature model: includes additional specialist-oriented variables
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 ## 1. Required input clinical variables of the BTC-screening model ☑

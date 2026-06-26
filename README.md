@@ -1,5 +1,10 @@
-# BTC-screening model 🏥
-An interpretable biliary tract cancer risk prediction machine learning model for patients with benign biliary tract disease conditions or suspected conditions
+# Machine-learning decision support for differentiating biliary tract cancer from benign biliary tract disease at initial evaluation 🏥
+
+This repository contains code and documentation for reproducing the machine-learning pipeline described in:
+
+"A machine-learning decision-support model for differentiating biliary tract cancer from benign biliary tract disease at initial evaluation"
+
+The model is intended for research use and retrospective validation only. It is not a standalone diagnostic device and should not be used to make clinical decisions without prospective validation and appropriate regulatory review.
 
 ## 1. Required input clinical variables of the BTC-screening model ☑
 The following variables are presented in order, each with its required unit value:
